@@ -1,0 +1,13 @@
+amount=float(input("enter the amount"))
+bank_password = input("Enter a 4 digit number: ")
+if bank_password == "1234":
+    print("The password is correct.")
+    balance_password = input("Enter the 4 digit number for balance checking: ")
+    
+    if balance_password == "2345":
+        sum=500+2+amount
+        print("the total balance is:",sum)
+    else:
+        print("Your password is wrong, try again!")
+else:
+    print("Incorrect password.")
